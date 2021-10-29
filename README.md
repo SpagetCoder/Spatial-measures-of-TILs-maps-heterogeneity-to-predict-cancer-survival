@@ -7,7 +7,7 @@ by utilizing 3 different methods for structure analysis.
 The used methods are: Grey Level Co-occurance Matrix, Spatial Chaos and Affinity propagarion. The research was conducted on 7 cancer types: BLCA, BRCA, CESC, LUAD, LUSC, PAAD and PRAD
 
 
-Materials and other informations needed by the algorithm:
+Materials and other informations needed to run the algorithm:
 
 - TIL maps (are available under the adress: https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=33948919)
 
@@ -21,7 +21,7 @@ Materials and other informations needed by the algorithm:
 is required. The file consists of results obtained by by Joel Saltz et al in their research. This data is used to find optimal value for "frac" parrameter.
 The problem is elaborated more in the included thesis. Unfortunately, i can no longer find the original excel file anywhere on the web so insted i provide it here in the "Data" folder. This data was also used for checking the correctness of obtained results for all the methods.
 
-Both R and Matlab codes requires to provide a path to the files (i.e. TIL maps location or path to excel files),
+- Both R and Matlab codes requires to provide a path to the files (i.e. TIL maps location or path to excel files),
 the correct path should be put in appropriate fragments of code. For the R code its specifing where to save the images (coordinates and the ap results)
 and the indices results.
 The naming scheme of TIL maps should be unchanged otherwise the substr will need to be altered
