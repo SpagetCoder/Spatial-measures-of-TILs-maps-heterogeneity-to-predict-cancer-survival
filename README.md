@@ -1,5 +1,4 @@
 # Spatial-measures-of-TILs-maps-heterogeneity-to-predict-cancer-survival
-Master Thesis
 
 Following code was made as a part of master thesis reaserch. TIL (Tumor-Infiltrating Lymphocytes) are belived to have an important impact on patients survival in
 cancer prognosis.
@@ -8,11 +7,11 @@ by utilizing 3 different methods for structure analysis.
 The used methods are: Grey Level Co-occurance Matrix, Spatial Chaos and Affinity propagarion. The research was conducted on 7 cancer types: BLCA, BRCA, CESC, LUAD, LUSC, PAAD and PRAD
 
 
-Materials needed for the algorithm:
+Materials and other informations needed by the algorithm:
 
 - TIL maps (are available under the adress: https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=33948919)
 
-- The excel file that contiants information about patiets e.g. vital status, age etc. (available under the adress: https://gdc.cancer.gov/about-data/publications/PanCan-Clinical-2018)
+- The excel file that contiants information about patiets e.g. vital status, age etc. (available under the adress: https://gdc.cancer.gov/about-data/publications/PanCan-Clinical-2018). 
 
 - The naming needs to be unchanged (both names of TIL images as well as the collumns in the excel file), otherwise additonal changes in the code will be required. 
 
