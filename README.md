@@ -17,6 +17,10 @@ Materials and other informations needed by the algorithm:
 
 - The matlab code requires the Statistical Toolbox to be installed in order to run it and the R code needs clusterCrit and apcluster.
 
+- Due to the usage of quadratic similarity matrix by the Affinity Propagation the procedure doesn't scale well with increasing ammount of data. To mitigate this problem another variant of the algorithm called leverage definitive propagation can be used. When using this variant additional file "mmc2 - modified.xlsx" 
+is required. The file consists of results obtained by by Joel Saltz et al in their research. This data is used to find optimal value for "frac" parrameter.
+The problem is elaborated more in the included thesis. Unfortunately, i can no longer find the original excel file anywhere on the web so insted i provide it here in the "Data" folder
+
 Both R and Matlab codes requires to provide a path to the files (i.e. TIL maps location or path to excel files),
 the correct path should be put in appropriate fragments of code. For the R code its specifing where to save the images (coordinates and the ap results)
 and the indices results.
