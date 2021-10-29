@@ -36,5 +36,5 @@ the reason why those files are included in this repository is to make sure all t
 However if the authors are not happy about me posting their code here, please contanct me and i will make appropiate changes to the repository.
 
 Results are presented in the folder called "Results", each folder hold 3 excel files - one for spatial Chaos method, 
-one for GLCM method and one for Affinity Propagation. More details about the program as well as the results disscusion can be found in the thesis 
-pdf file located under the "Thesis" folder
+one for GLCM method and one for Affinity Propagation. This data was then used to construct Kaplan Meier curves, as well calcualting the values of HR, RMST
+and p value. More details about the program as well as the results disscusion can be found in the thesis pdf file located under the "Thesis" folder
