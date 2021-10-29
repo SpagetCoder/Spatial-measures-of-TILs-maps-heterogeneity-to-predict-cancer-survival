@@ -30,6 +30,7 @@ The naming scheme of TIL maps should be unchanged otherwise the substr will need
 Additional informations
 
 Chunks of code in the GLCM file are taken from EXIMS research conducted by As Chalini D. et al. (https://sourceforge.net/projects/exims/files/)
+
 Code from the folder called "Spatial chaos original source code" is taken directly from authors (Andreas Bartels, Theodore Alexandrov, University of Bremen) github pageand its available under the adress (https://github.com/alexandrovteam/IMS_quality/tree/master/codebase), 
 the reason why those files are included in this repository is to make sure all the necessery files are stored in one place. 
 However if the authors are not happy about me posting their code here, please contanct me and i will make appropiate changes to the repository.
